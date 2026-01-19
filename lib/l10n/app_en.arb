@@ -1,0 +1,53 @@
+{
+  "@@locale": "en",
+  "loginTitle": "Welcome!",
+  "loginSubtitle": "Enter your details to log in",
+  "loginButton": "Login",
+  "loginField": "Login",
+  "passwordField": "Password",
+  "homeTitle": "Quiz Creator",
+  "addQuestion": "Add New Question",
+  "solveQuiz": "Take a Quiz",
+  "viewQuestions": "View Questions",
+  "quizConfig": "Quiz Settings",
+  "questionCount": "Number of Questions",
+  "shuffleOptions": "Shuffle Options",
+  "startQuiz": "Start Quiz",
+  "questionsFound": "{count} questions found",
+  "@questionsFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noQuestions": "No questions found",
+  "correct": "Correct",
+  "incorrect": "Incorrect",
+  "score": "Score",
+  "backToHome": "Back to Home",
+  "save": "Save",
+  "import": "Import",
+  "export": "Export",
+  "clearAll": "Clear All",
+  "questionsList": "Questions List",
+  "explanation": "Explanation",
+  "copied": "Copied!",
+  "copyTemplate": "Copy Template",
+  "templateFormat": "Enter questions and answers in the following format:",
+  "pasteHint": "Paste text here...",
+  "question": "Question",
+  "noExplanation": "No explanation available for this question.",
+  "ok": "OK",
+  "questions": "Questions",
+  "successMessage": "Well done!",
+  "failureMessage": "Try again!",
+  "retryQuiz": "Retry Quiz",
+  "allQuestions": "All Questions",
+  "from": "From",
+  "to": "To",
+  "questionGrid": "Question Navigator",
+  "rangeSelection": "Select Range",
+  "randomQuestions": "Random Questions",
+  "finishTest": "Finish Test"
+}

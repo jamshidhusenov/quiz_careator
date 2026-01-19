@@ -1,0 +1,53 @@
+{
+  "@@locale": "ru",
+  "loginTitle": "Добро пожаловать!",
+  "loginSubtitle": "Введите данные для входа в систему",
+  "loginButton": "Войти",
+  "loginField": "Логин",
+  "passwordField": "Пароль",
+  "homeTitle": "Quiz Creator",
+  "addQuestion": "Добавить новый вопрос",
+  "solveQuiz": "Пройти тест",
+  "viewQuestions": "Просмотреть вопросы",
+  "quizConfig": "Настройки теста",
+  "questionCount": "Количество вопросов",
+  "shuffleOptions": "Перемешать варианты",
+  "startQuiz": "Начать тест",
+  "questionsFound": "Найдено вопросов: {count}",
+  "@questionsFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noQuestions": "Вопросы не найдены",
+  "correct": "Правильно",
+  "incorrect": "Неправильно",
+  "score": "Результат",
+  "backToHome": "Вернуться на главную",
+  "save": "Сохранить",
+  "import": "Импорт",
+  "export": "Экспорт",
+  "clearAll": "Очистить",
+  "questionsList": "Список вопросов",
+  "explanation": "Объяснение",
+  "copied": "Скопировано!",
+  "copyTemplate": "Копировать",
+  "templateFormat": "Введите вопросы и ответы в следующем формате:",
+  "pasteHint": "Вставьте текст сюда...",
+  "question": "Вопрос",
+  "noExplanation": "Для этого вопроса пока нет объяснения.",
+  "ok": "Понятно",
+  "questions": "вопросов",
+  "successMessage": "Молодец!",
+  "failureMessage": "Попробуйте еще раз!",
+  "retryQuiz": "Продолжить тест",
+  "allQuestions": "Все вопросы",
+  "from": "От",
+  "to": "До",
+  "questionGrid": "Навигатор вопросов",
+  "rangeSelection": "Выбор диапазона",
+  "randomQuestions": "Случайные вопросы",
+  "finishTest": "Завершить тест"
+}

@@ -1,0 +1,53 @@
+{
+  "@@locale": "uz",
+  "loginTitle": "Xush kelibsiz!",
+  "loginSubtitle": "Tizimga kirish uchun ma'lumotlarni kiriting",
+  "loginButton": "Kirish",
+  "loginField": "Login",
+  "passwordField": "Parol",
+  "homeTitle": "Quiz Creator",
+  "addQuestion": "Yangi savol qo'shish",
+  "solveQuiz": "Test ishlash",
+  "viewQuestions": "Savollarni ko'rish",
+  "quizConfig": "Test sozlamalari",
+  "questionCount": "Savollar soni",
+  "shuffleOptions": "Variantlarni aralashtirish",
+  "startQuiz": "Testni boshlash",
+  "questionsFound": "{count} ta savol topildi",
+  "@questionsFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noQuestions": "Savollar topilmadi",
+  "correct": "To'g'ri",
+  "incorrect": "Noto'g'ri",
+  "score": "Natija",
+  "backToHome": "Bosh sahifaga qaytish",
+  "save": "Saqlash",
+  "import": "Import",
+  "export": "Export",
+  "clearAll": "Tozalash",
+  "questionsList": "Savollar ro'yxati",
+  "explanation": "Tushuntirish",
+  "copied": "Nusxalandi!",
+  "copyTemplate": "Nusxa olish",
+  "templateFormat": "Savol va javoblarni quyidagi formatda kiriting:",
+  "pasteHint": "Shu yerga textni paste qiling...",
+  "question": "Savol",
+  "noExplanation": "Bu savol bo'yicha hozircha tushuntirish mavjud emas.",
+  "ok": "Tushunarli",
+  "questions": "savol",
+  "successMessage": "Barakalla!",
+  "failureMessage": "Yana harakat qiling!",
+  "retryQuiz": "Test ishlashda davom etish",
+  "allQuestions": "Barcha savollar",
+  "from": "Dan",
+  "to": "Gacha",
+  "questionGrid": "Savollar tartibi",
+  "rangeSelection": "Oraliqni tanlash",
+  "randomQuestions": "Random savollar",
+  "finishTest": "Testni tugatish"
+}
