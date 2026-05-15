@@ -2,11 +2,14 @@ import 'models.dart';
 
 class DataService {
   /// Converts a string of text into a list of Questions.
-  /// Uses '++++' as question separator and '====' as option separator.
+  /// Supports multiple '+' (4+) as question separator and '====' or '= = = =' as option separator.
   /// Options starting with '#' are considered correct.
   static List<Question> parseQuestions(String text) {
+    final questionSeparator = RegExp(r'(\s*\+\s*){4,}');
+    final optionSeparator = RegExp(r'(\s*=\s*){4,}');
+
     List<String> questionBlocks = text
-        .split('++++')
+        .split(questionSeparator)
         .map((e) => e.trim())
         .where((e) => e.isNotEmpty)
         .toList();
@@ -15,18 +18,18 @@ class DataService {
 
     for (String block in questionBlocks) {
       List<String> parts = block
-          .split('====')
+          .split(optionSeparator)
           .map((e) => e.trim())
           .where((e) => e.isNotEmpty)
           .toList();
 
       if (parts.length < 2) continue;
 
-      String questionText = parts[0];
+      String questionText = parts[0].replaceAll(RegExp(r'\s+'), ' ');
       List<Option> options = [];
 
       for (int i = 1; i < parts.length; i++) {
-        String optionText = parts[i];
+        String optionText = parts[i].replaceAll(RegExp(r'\s+'), ' ');
         bool isCorrect = optionText.startsWith('#');
         if (isCorrect) {
           optionText = optionText.substring(1).trim();

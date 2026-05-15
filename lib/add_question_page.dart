@@ -80,7 +80,7 @@ class _AddQuestionPageState extends State<AddQuestionPage> {
                     ),
                   ),
                   child: Text(
-                    'Savol 1\n====\n# To\'g\'ri javob\n====\nNoto\'g\'ri\n++++\nSavol 2\n====\n# To\'g\'ri javob\n====\nNoto\'g\'ri',
+                    'Savol 1\n====\n# To\'g\'ri javob\n====\nNoto\'g\'ri\n++++\nSavol 2\n= = = =\n# To\'g\'ri javob\n= = = =\nNoto\'g\'ri',
                     style: GoogleFonts.firaCode(
                       fontSize: 13,
                       color: Theme.of(context).colorScheme.onSurface,
@@ -101,7 +101,7 @@ class _AddQuestionPageState extends State<AddQuestionPage> {
                       Clipboard.setData(
                         const ClipboardData(
                           text:
-                              'Savol 1\n====\n# To\'g\'ri javob\n====\nNoto\'g\'ri\n++++\nSavol 2\n====\n# To\'g\'ri javob\n====\nNoto\'g\'ri',
+                              'Savol 1\n====\n# To\'g\'ri javob\n====\nNoto\'g\'ri\n++++\nSavol 2\n= = = =\n# To\'g\'ri javob\n= = = =\nNoto\'g\'ri',
                         ),
                       );
                       ScaffoldMessenger.of(context).showSnackBar(
