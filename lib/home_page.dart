@@ -211,7 +211,7 @@ class HomePage extends StatelessWidget {
     final l10n = AppLocalizations.of(context)!;
     return Scaffold(
       appBar: AppBar(
-        title: Text(l10n.homeTitle),
+        title: Text("LLLLLL"),
         centerTitle: true,
         actions: [
           IconButton(

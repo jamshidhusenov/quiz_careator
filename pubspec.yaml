@@ -1,6 +1,6 @@
 name: quiz_creator
 description: "A new Flutter project."
-version: 1.0.2+2
+version: 1.0.2+3
 
 environment:
   sdk: ^3.10.4
@@ -23,6 +23,7 @@ dependencies:
     sdk: flutter
   intl: any
   audioplayers: ^6.5.1
+  shorebird_code_push: ^2.0.0
 
 dev_dependencies:
   flutter_test:
@@ -53,6 +54,7 @@ flutter:
     - assets/icon/Success celebration.json
     - assets/sounds/correct.mp3
     - assets/sounds/wrong-answer.mp3
+    - shorebird.yaml
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
